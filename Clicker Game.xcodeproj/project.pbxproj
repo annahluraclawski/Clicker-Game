@@ -17,6 +17,7 @@
 		9984F9D02ACC583B00E784A8 /* Clicker_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984F9CF2ACC583B00E784A8 /* Clicker_GameTests.swift */; };
 		9984F9DA2ACC583B00E784A8 /* Clicker_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984F9D92ACC583B00E784A8 /* Clicker_GameUITests.swift */; };
 		9984F9DC2ACC583B00E784A8 /* Clicker_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984F9DB2ACC583B00E784A8 /* Clicker_GameUITestsLaunchTests.swift */; };
+		99E889142ACF032500FDA47E /* ViewControllerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E889132ACF032500FDA47E /* ViewControllerStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9984F9D52ACC583B00E784A8 /* Clicker GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clicker GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9984F9D92ACC583B00E784A8 /* Clicker_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clicker_GameUITests.swift; sourceTree = "<group>"; };
 		9984F9DB2ACC583B00E784A8 /* Clicker_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clicker_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99E889132ACF032500FDA47E /* ViewControllerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				9984F9B52ACC583900E784A8 /* AppDelegate.swift */,
 				9984F9B72ACC583900E784A8 /* SceneDelegate.swift */,
 				9984F9B92ACC583900E784A8 /* ViewController.swift */,
+				99E889132ACF032500FDA47E /* ViewControllerStore.swift */,
 				9984F9BB2ACC583900E784A8 /* Main.storyboard */,
 				9984F9C12ACC583B00E784A8 /* Assets.xcassets */,
 				9984F9C32ACC583B00E784A8 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9984F9BA2ACC583900E784A8 /* ViewController.swift in Sources */,
+				99E889142ACF032500FDA47E /* ViewControllerStore.swift in Sources */,
 				9984F9B62ACC583900E784A8 /* AppDelegate.swift in Sources */,
 				9984F9B82ACC583900E784A8 /* SceneDelegate.swift in Sources */,
 				9984F9C02ACC583900E784A8 /* Clicker_Game.xcdatamodeld in Sources */,
