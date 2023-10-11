@@ -18,12 +18,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        
     }
     
     
     @IBAction func clickButton(_ sender: Any) {
         pointsOutlet.text = "\(points)"
         points+=1
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! ViewControllerStore
+        nvc.random = points
+        nvc.delegate = self
     }
     
     @IBAction func storeButton(_ sender: Any) {

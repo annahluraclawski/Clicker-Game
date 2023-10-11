@@ -8,22 +8,40 @@
 import UIKit
 
 class ViewControllerStore: UIViewController {
+    
+    var random : Int!
+    weak var delegate :ViewController!
+    
+    @IBOutlet weak var pointsOutlet: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        pointsOutlet.text = "Points: \(random!)"
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func redBackground(_ sender: Any) {
+        
     }
-    */
-
+    
+    
+    @IBAction func blusBackground(_ sender: Any) {
+        
+    }
+    
+    
+    @IBAction func yellowBackground(_ sender: Any) {
+        
+    }
+    
+    
+    @IBAction func mintBackground(_ sender: Any) {
+        
+    }
+    
 }
