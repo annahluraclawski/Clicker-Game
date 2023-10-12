@@ -26,7 +26,9 @@ class ViewControllerStore: UIViewController {
     
     
     @IBAction func redBackground(_ sender: Any) {
-        
+        random -= 25
+        pointsOutlet.text = "Points: \(random!)"
+        delegate.points = random
     }
     
     

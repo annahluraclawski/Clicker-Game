@@ -21,6 +21,10 @@ class ViewController: UIViewController {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        pointsOutlet.text = "Points: \(points)"
+    }
+    
     
     @IBAction func clickButton(_ sender: Any) {
         pointsOutlet.text = "\(points)"
