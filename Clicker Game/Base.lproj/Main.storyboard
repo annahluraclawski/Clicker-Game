@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Clicker-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Clicker_Game" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="73w-CO-ZAY"/>
+                    <navigationItem key="navigationItem" title="Clicker" id="73w-CO-ZAY"/>
                     <connections>
                         <outlet property="pointsOutlet" destination="1jJ-mK-zaq" id="e1i-mr-9AU"/>
                         <segue destination="ELG-dt-9ea" kind="show" identifier="toStore" id="Wsp-KO-y2P"/>
@@ -59,7 +59,7 @@
             </objects>
             <point key="canvasLocation" x="997.70992366412213" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller Store-->
+        <!--Store-->
         <scene sceneID="BlF-tA-GkQ">
             <objects>
                 <viewController id="ELG-dt-9ea" customClass="ViewControllerStore" customModule="Clicker_Game" customModuleProvider="target" sceneMemberID="viewController">
@@ -67,13 +67,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whe-QR-kgC">
-                                <rect key="frame" x="144" y="61" width="104" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="az1-nd-rjo">
                                 <rect key="frame" x="27" y="124" width="221" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -153,7 +146,7 @@
                         <viewLayoutGuide key="safeArea" id="tiM-nY-uVx"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jnU-Lc-dBa"/>
+                    <navigationItem key="navigationItem" title="Store" id="jnU-Lc-dBa"/>
                     <connections>
                         <outlet property="pointsOutlet" destination="az1-nd-rjo" id="c5L-9j-D9c"/>
                     </connections>

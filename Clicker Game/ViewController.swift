@@ -27,8 +27,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func clickButton(_ sender: Any) {
-        pointsOutlet.text = "\(points)"
         points+=1
+        pointsOutlet.text = "\(points)"
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
